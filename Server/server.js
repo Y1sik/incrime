@@ -33,12 +33,12 @@ var loginsUsers = {};
 // mySQL 연결 잘됨
 var mysql = require("mysql");
 const { clearInterval } = require("timers");
-//
+// DB 정보 입력
 var connection = mysql.createConnection({
-	host: "exbodcemtop76rnz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-	user: "kw60r04ib61nxpzk",
-	password: "req2v8wchyhantdn",
-	database: "nlgr288toijev7z6",
+	host: "",
+	user: "",
+	password: "",
+	database: "",
 	multipleStatements: true,
 });
 connection.connect();
